@@ -1,0 +1,7 @@
+1:[ ] first task
+2:[X] second task 
+3:[ ] this is another task 
+4:[ ] todo.txt add one more task 
+5:[ ] todo.txt add one more task 
+6:[ ] one more task 
+7:[ ] one more task 
