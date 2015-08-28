@@ -1,25 +1,27 @@
-#include <iostream>
-#include <fstream>
 
-using namespace std;
+#include "Task.h"
+
+void process(std::string command, std::string filename)
+std::string command;
+std::string filename = "todo.txt";
+std::vector<std::string> arglist;
 int main(int argc, char** argv)
 {
-	cout << "The number of argments is"<<argc<<endl;
-	for(int i = 0; i < argc; i++){
-cout<<"Argument number "<<i<<" is :"<<argv[i]<<endl;
-} 
-	if(argc >= 3) //if no file name was 
-	{
-		char* fileName = argv[1]; 
-		ofstream inFile(fileName);	//open input file
-		char* task = argv[2];	//task description handler
-		for(int i =2; i<argc;i++){
-			inFile << task; //output task desription to file
-			inFile<<" ";	//put space
-			task++;	//move to next string
-		}
-	
-	inFile.close();	//close input file
-	}
+    if(argc <)
+    for(int i = 0; i < argc ; i++)
+    {
+        arglist.push_back(std::string(argv[i]));
+    }
+    while(arglist[i])
+    {
+
+    }
+    Todo theList;
+    theList.parse("todo1.txt");
+
 	return 0;
+}
+void process (std::string command, std::string filename)
+{
+
 }
