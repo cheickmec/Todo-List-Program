@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/cheick/Documents/Git/ECE-3574-Project0/Task.cpp
-Task.h
-/home/cheick/Documents/Git/ECE-3574-Project0/Task.h
-
-/home/cheick/Documents/Git/ECE-3574-Project0/Task.h
+/home/cheick/Documents/Git/ECE-3574-Project0/include/Task.h
 string
 -
 vector
@@ -19,8 +15,6 @@ fstream
 -
 iostream
 -
-
-/home/cheick/Documents/Git/ECE-3574-Project0/include/Task.h
 
 /home/cheick/Documents/Git/ECE-3574-Project0/main.cpp
 include/Task.h

@@ -12,7 +12,10 @@ int main(int argc, char** argv)
     {
         arglist.push_back(std::string(argv[i]));
     }
-    
+    while(arglist[i])
+    {
+
+    }
     Todo theList;
     theList.parse("todo1.txt");
 
