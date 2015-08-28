@@ -29,10 +29,14 @@ class Todo
 //Returns true if str has proper format
 bool isFormat(std::string str);
 bool isNumber(const char n);
-void process(std::string command, std::string filename, unsigned int argnumb);
-void process_2(std::string command, std::string filename, unsigned int argnumb);
-void process_3(std::string command, std::string filename, unsigned int argnumb);
-void process_4(std::string command, std::string filename, unsigned int argnumb);
-void process_5(std::string command, std::string filename, unsigned int argnumb);
+void process(std::string command, std::string filename, unsigned int argnumb,std::vector<std::string> alist);
+//to call if 2 arguments
+void process_2(std::string command, std::string filename, unsigned int argnumb,std::vector<std::string> alist);
+//to call if 3 arguments
+void process_3(std::string command, std::string filename, unsigned int argnumb,std::vector<std::string> alist);
+//to call if 4 arguments
+void process_4(std::string command, std::string filename, unsigned int argnumb,std::vector<std::string> alist);
+//to call if 5 or more arguments
+void process_5(std::string command, std::string filename, unsigned int argnumb,std::vector<std::string> alist);
 #endif // TASK_H
 

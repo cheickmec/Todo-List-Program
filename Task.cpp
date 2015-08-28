@@ -82,20 +82,25 @@ bool isNumber(const char n)
     return true;
 }
 
-void process(std::string command, std::string filename, unsigned int argnumb)
+void process(std::string command, std::string filename, unsigned int argnumb, std::vector<std::string> alist)
 {
-
+	if(argnumb == 3) return process_3(command, filename, argnumb,alist);
+	else if(argnumb == 4) return process_4(command, filename, argnumb, alist);
+else return process_5(command,filename, argnumb,alist);
 }
-void process_2(std::string command, std::string filename, unsigned int argnumb)
-{
-}
-void process_3(std::string command, std::string filename, unsigned int argnumb)
-{
-}
-void process_4(std::string command, std::string filename, unsigned int argnumb)
+///***************************************************************
+void process_2(std::string command, std::string filename, unsigned int argnumb, std::vector<std::string> alist)
 {
 }
-void process_5(std::string command, std::string filename, unsigned int argnumb)
+///**************************************************************
+void process_3(std::string command, std::string filename, unsigned int argnumb, std::vector<std::string> alist)
 {
 }
-
+///**************************************************************
+void process_4(std::string command, std::string filename, unsigned int argnumb, std::vector<std::string> alist)
+{
+}
+///****************************************************************
+void process_5(std::string command, std::string filename, unsigned int argnumb, std::vector<std::string> alist)
+{
+}
