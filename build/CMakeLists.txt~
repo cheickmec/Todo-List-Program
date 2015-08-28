@@ -1,0 +1,2 @@
+project(Todo List)
+add_executable(todo main.cpp Task.cpp Task.h)
