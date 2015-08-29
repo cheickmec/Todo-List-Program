@@ -32,20 +32,23 @@ void Todo::addToList(Task t)                                    //
 void Todo::parse(std::string filename)
 {
     std::fstream aFile;
-    aFile.open(filename.c_str(), std::fstream::in);
+    aFile.open(filename.c_str());
+   
     std::string astr;
-    unsigned i =0;
-    while(!aFile.eof())
+    unsigned int i =0;
+    while(std::getline(aFile,astr))
     {
+	
         i++;
-        std::getline(aFile,astr);
         if((astr.c_str())[0])
-        {
+        {	
+		
             if(!isFormat(astr)){
+		
                 std::cerr<<"Task at line "<<i<<" has wrong format so it was ignored"<<std::endl;
                 continue;
             }
-
+		
             addToList(Task(astr));
         }
     }

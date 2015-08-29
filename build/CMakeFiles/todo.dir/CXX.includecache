@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/cheick/Documents/Git/ECE-3574-Project0/Task.cpp
+include/Task.h
+/home/cheick/Documents/Git/ECE-3574-Project0/include/Task.h
+
 /home/cheick/Documents/Git/ECE-3574-Project0/include/Task.h
 string
 -
@@ -16,11 +20,5 @@ fstream
 iostream
 -
 cstring
--
-
-/home/cheick/Documents/Git/ECE-3574-Project0/main.cpp
-include/Task.h
-/home/cheick/Documents/Git/ECE-3574-Project0/include/Task.h
-sstream
 -
 

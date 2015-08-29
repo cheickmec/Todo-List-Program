@@ -38,14 +38,14 @@ int main(int argc, char** argv)
     {
         if(arglist[1]=="list" && argc >2) //if todo list ...
         {
-        std::cout<<"FAILED at line "<<__LINE__<<std::endl;
+       
 	    print_usage();
             return 0;
         }
         else if(argc == 2)
         {
             if(arglist[1]!="list") // if todo <not-list>
-            {std::cout<<"FAILED at line "<<__LINE__<<std::endl;
+            {
                 print_usage();
                 return 0;
             }
@@ -58,7 +58,7 @@ int main(int argc, char** argv)
         }
         else if(argc == 4)//if 4 arguments: todo -f filename list
         {
-            if(arglist[3]=="list") //if ()
+            if(arglist[3]=="list") //if (todo -f filename list)
             {
             theList.display();
             return 0;
@@ -168,7 +168,7 @@ int main(int argc, char** argv)
                 return 0;
             }
     }
-    std::cout<<"FAILED at line "<<__LINE__<<std::endl;
+    
     print_usage();
 	return 0;
 }
