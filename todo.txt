@@ -1,3 +1,0 @@
-1:[ ] start HW 0 
-2:[X] read first chapter for class 
-3:[ ] ask about templates during office hours 
