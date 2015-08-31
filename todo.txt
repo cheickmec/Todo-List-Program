@@ -1,0 +1,5 @@
+1:[ ] my first task
+2:[X] wrr
+3:[ ] task number one
+4:[ ] HW 1- ECE 3574
+5:[ ] Apply to job

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cheick/Documents/Git/ECE-3574-Project0/Prog.cpp
+Prog.h
+/home/cheick/Documents/Git/ECE-3574-Project0/Prog.h
+
+/home/cheick/Documents/Git/ECE-3574-Project0/Prog.h
+c_command.h
+/home/cheick/Documents/Git/ECE-3574-Project0/c_command.h
+
+/home/cheick/Documents/Git/ECE-3574-Project0/c_Arglist.cpp
+c_Arglist.h
+/home/cheick/Documents/Git/ECE-3574-Project0/c_Arglist.h
+
+/home/cheick/Documents/Git/ECE-3574-Project0/c_Arglist.h
+string
+-
+iostream
+-
+cmath
+-
+cstring
+-
+
+/home/cheick/Documents/Git/ECE-3574-Project0/c_command.cpp
+c_command.h
+/home/cheick/Documents/Git/ECE-3574-Project0/c_command.h
+
+/home/cheick/Documents/Git/ECE-3574-Project0/c_command.h
+fstream
+-
+c_Arglist.h
+/home/cheick/Documents/Git/ECE-3574-Project0/c_Arglist.h
+vector
+-
+
+/home/cheick/Documents/Git/ECE-3574-Project0/main.cpp
+Prog.h
+/home/cheick/Documents/Git/ECE-3574-Project0/Prog.h
+

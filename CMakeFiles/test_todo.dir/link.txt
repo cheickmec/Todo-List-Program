@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/test_todo.dir/prog_test.o CMakeFiles/test_todo.dir/Prog.o CMakeFiles/test_todo.dir/c_Arglist.o CMakeFiles/test_todo.dir/c_command.o  -o test_todo -rdynamic 
