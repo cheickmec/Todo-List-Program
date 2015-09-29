@@ -1,5 +1,4 @@
-#ECE-3574-Project0
-todo list program from ECE 3574
+todo list
 
 Specifications:
 	
@@ -16,7 +15,3 @@ Specifications:
 			It does not take any argument. Adding any text after it will result in no action.
 		*add : this command takes a text as argument and adds it to the bottom of the list.
 			If no argument is provided, no action will be taken.
-	
-Design Approach:
-	
-	An object oriented design pattern is adopted to implement the program.
